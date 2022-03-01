@@ -141,6 +141,7 @@ h2 {
   justify-content: space-between;
 }
 .login-button{
+  padding: 0.5rem;
   border: none;
   border-radius: 20px;
   background-color: white;
