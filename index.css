@@ -2,7 +2,6 @@ body {
   background-color: rgb(245, 245, 245);
   margin: 0;
 }
-
 #image {
   border-radius: 200px;
   float: left;
@@ -18,7 +17,7 @@ b {
 }
 .example {
   background-color: black;
-  width: 400px;
+  width: 100%;
   border: 1px dotted black;
   margin: 4px, 4px;
   padding: 4px;
@@ -128,4 +127,25 @@ h2 {
   word-spacing: 0px;
   margin: 0px;
   padding: 0px;
+}
+.navbar-{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  margin-top: -1px;
+  border-bottom: 2px solid rgb(234, 234, 234);
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .right{
+    display: none;
+  }
+  .hidden{
+    display: none;
+  }
+  .middle{
+    width: 100%;
+  }
 }
